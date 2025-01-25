@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .img-shadow {
+        filter: drop-shadow(45px 50px 10px #0f1115);
+    }
+
+    .img-shadow2:hover {
+        cursor: pointer;
+        filter: drop-shadow(4px 10px 10px #5e5b5b);
+        transition: all 0.3s ease-in-out;
+    }
+    .img-shadow3:hover {
+        filter: drop-shadow(0px 0px 5px #0b0b0b);
+    }
+
+    @media (max-width:950px) {
+        .wrap-cls {
+            flex-wrap: wrap;
+        }
+    }
+
+
+}

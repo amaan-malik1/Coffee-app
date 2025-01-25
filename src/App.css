@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+
+.hidden-div {
+  position: relative;
+  right: 150px;
+  transform: scale(1.2);
+  transition: all 3s ease-in-out;
+  animation: sideDiv 3s cubic-bezier(0, 0, 0, 0.75) 1 ;
+}
+
+@keyframes sideDiv {
+  0%{
+    transform: scale(0);
+  }
+  50%{
+    /* opacity: 0.5; */
+  }
+  100%{
+    transform: scale(1.2);
+  }
+  
+}

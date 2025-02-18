@@ -70,7 +70,8 @@ const Hero = () => {
                         </div>
                     </div>
       
-
+         {/* menu section  */}
+                   
                 </div>
             </section>
         </main>

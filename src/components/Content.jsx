@@ -46,8 +46,8 @@ const Content = () => {
 {/*             contact content here */}
 
             <div className=" flex justify-between items-center m-auto gap-10 p-10 w-[100%] max-md:flex-col max-md:text-center ">
-                <div className="connect flex flex-col w-[50%] gap-10 ">
-                    <h2 className="text-4xl overflow-hidden font-semibold w-[80%]">
+                <div className="connect flex flex-col gap-10 ">
+                    <h2 className="text-4xl overflow-hidden font-semibold text-center">
                         Buy our products from anywhere
                     </h2>
 
@@ -71,7 +71,7 @@ const Content = () => {
                 </div>
 
                 <div className="worldMap f">
-                    <img src={wMap} alt="" className="w-[550px]" />
+                    <img src={wMap} alt="" className="map" />
                 </div>
 
 

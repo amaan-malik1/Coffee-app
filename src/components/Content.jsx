@@ -45,19 +45,19 @@ const Content = () => {
 
 {/*             contact content here */}
 
-            <div className="contact-container flex justify-between items-center m-auto gap-10 p-10 w-[100%]">
+            <div className=" flex justify-between items-center m-auto gap-10 p-10 w-[100%] max-md:flex-col max-md:text-center ">
                 <div className="connect flex flex-col w-[50%] gap-10 ">
                     <h2 className="text-4xl overflow-hidden font-semibold w-[80%]">
                         Buy our products from anywhere
                     </h2>
 
                     {/* form for contact  */}
-                    <div className="flex flex-col gap-5">
-                        <div className="flex gap-5">
+                    <div className="flex flex-col gap-5 max-md:p-4">
+                        <div className="flex gap-5 max-md:p-4">
                             <input type="text" placeholder='Name' className="border border-black p-2 rounded-md w-[120px]" />
                             <input type="email" placeholder='Email' className="border border-black p-2 rounded-md w-[280px]" />
                         </div>
-                        <div className="flex gap-5">
+                        <div className="flex gap-5 max-md:p-4">
                             <input type="text" name="" id="" placeholder='Country' className="w-[200px] border border-black p-2 rounded-md" />
                             <input type="text" name="" id="" placeholder='Zipcode' className="w-[200px] border border-black p-2 rounded-md" />
 

@@ -21,7 +21,7 @@ const Hero = () => {
     const [sidebar, setSidebar] = useState(false)
     return (
         <main style={bgImg}>
-            <section className="min-h-[750px] w-full ">
+            <section className=" w-full ">
                 <div className="conatiner">
                     {/* Navbar section  */}
                     <Navbar sidebar={sidebar} setSidebar={setSidebar} />

@@ -71,6 +71,26 @@ const Hero = () => {
                     </div>
       
          {/* menu section  */}
+                     <div className="absolute top-0 ring-0 w-[140px] h-full backdrop-blur-sm z-10 ">
+                        <div className="w-full h-full flex flex-col justify-center items-center gap-6 ">
+                            {/* line  */}
+                            <div className="w-[1px] h-[70px] bg-white">
+
+                            </div>
+
+                            {/* social icons  */}
+                            <div className="inline-block p-2 rounded-full cursor-pointer border border-white">
+                                <FaFacebook className="text-2xl" />
+                            </div>
+                            <div className="inline-block p-2 rounded-full cursor-pointer border border-white">
+                                <FaInstagram className="text-2xl" />
+                            </div>
+                            <div className="inline-block p-2 rounded-full cursor-pointer border border-white">
+                                <FaTwitter className="text-2xl" />
+                            </div>
+
+                        </div>
+                    </div> 
                    
                 </div>
             </section>

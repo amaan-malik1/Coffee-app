@@ -53,13 +53,13 @@ const Content = () => {
 
                     {/* form for contact  */}
                     <div className="flex flex-col gap-5 max-md:p-4">
-                        <div className="flex gap-5 max-md:p-4">
-                            <input type="text" placeholder='Name' className="border border-black p-2 rounded-md w-[120px]" />
-                            <input type="email" placeholder='Email' className="border border-black p-2 rounded-md w-[280px]" />
+                        <div className="flex gap-5 max-md:p-4 max-md:flex-col">
+                            <input type="text" placeholder='Name' className="border border-black p-2 rounded-md w-[120px] max-md:w-[100%]" />
+                            <input type="email" placeholder='Email' className="border border-black p-2 rounded-md w-[280px] max-md:w-[100%]" />
                         </div>
-                        <div className="flex gap-5 max-md:p-4">
-                            <input type="text" name="" id="" placeholder='Country' className="w-[200px] border border-black p-2 rounded-md" />
-                            <input type="text" name="" id="" placeholder='Zipcode' className="w-[200px] border border-black p-2 rounded-md" />
+                        <div className="flex gap-5 max-md:p-4 max-md:flex-col">
+                            <input type="text" name="" id="" placeholder='Country' className="w-[200px] max-md:w-[100%] border border-black p-2 rounded-md" />
+                            <input type="text" name="" id="" placeholder='Zipcode' className="w-[200px] max-md:w-[100%] border border-black p-2 rounded-md" />
 
                         </div>
                     </div>

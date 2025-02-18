@@ -24,9 +24,9 @@ const Hero = () => {
             <section className=" w-full ">
                 <div className="conatiner">
                     {/* Navbar section  */}
-                    <Navbar sidebar={sidebar} setSidebar={setSidebar} />
+                  
                     {/* Hero section  */}
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-items-center  min-h-[850px]">
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-items-center  ">
                         {/* text content section  */}
                         <div className="flex flex-col gap-5 text-orange-200">
                             <h1

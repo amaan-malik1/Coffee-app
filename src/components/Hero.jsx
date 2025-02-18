@@ -71,7 +71,7 @@ const Hero = () => {
                     </div>
       
          {/* menu section  */}
-                     <div className="absolute top-0 ring-0 w-[140px] h-full backdrop-blur-sm z-10 ">
+                     <div className="absolute top-0 ring-0 w-[140px] h-full z-10 ">
                         <div className="w-full h-full flex flex-col justify-center items-center gap-6 ">
                             {/* line  */}
                             <div className="w-[1px] h-[70px] bg-white">

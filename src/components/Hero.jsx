@@ -69,28 +69,7 @@ const Hero = () => {
                             <p className="w-[70%] overflow-y-hidden w">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed iusto soluta exercitationem beatae qui quae suscipit perspiciatis consectetur. Voluptates assumenda ullam dolor placeat dignissimos sequi doloribus. Quas totam ducimus inventore!</p>
                         </div>
                     </div>
-
-                    {/* menu section  */}
-                    <div className="absolute top-0 ring-0 w-[140px] h-full bg-gradient-to-r from-primary/80 to-primary/5 backdrop-blur-sm z-10 ">
-                        <div className="w-full h-full flex flex-col justify-center items-center gap-6 ">
-                            {/* line  */}
-                            <div className="w-[1px] h-[70px] bg-white">
-
-                            </div>
-
-                            {/* social icons  */}
-                            <div className="inline-block p-2 rounded-full cursor-pointer border border-white">
-                                <FaFacebook className="text-2xl" />
-                            </div>
-                            <div className="inline-block p-2 rounded-full cursor-pointer border border-white">
-                                <FaInstagram className="text-2xl" />
-                            </div>
-                            <div className="inline-block p-2 rounded-full cursor-pointer border border-white">
-                                <FaTwitter className="text-2xl" />
-                            </div>
-
-                        </div>
-                    </div>
+      
 
                 </div>
             </section>

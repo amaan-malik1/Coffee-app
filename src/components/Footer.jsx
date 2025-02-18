@@ -6,9 +6,9 @@ import paymentImg1 from './assets/paymentImg1.png';
 
 const Footer = () => {
     return (
-        <div className="flex items-center justify-around gap-10 px-[7rem] py-10 bg-primary w-full h-[50vh] text-white overflow-hidden">
+        <div className="flex items-center justify-around bg-primary w-full text-white overflow-hidden">
             {/* section 1 */}
-            <div className="m-auto w-[33%] justify-center items-center">
+            <div className="m-auto justify-center items-center">
                 <div className="flex flex-col gap-5">
                     <h2 className="text-5xl font-bold overflow-hidden">
                         Coders Cafe
@@ -28,7 +28,7 @@ const Footer = () => {
             </div>
 
             {/* section 2*/}
-            <div className="flex flex-col gap-5 m-auto w-[33%] justify-center items-center text-center">
+            <div className="flex flex-col gap-5 justify-center items-center text-center">
                 <h2 className="text-5xl font-bold overflow-hidden">Quick Links</h2>
                 <div className="flex gap-5">
                     <div className="part1">
@@ -51,7 +51,7 @@ const Footer = () => {
             </div>
 
             {/* section 3 */}
-            <div className="flex flex-col gap-5 m-auto w-[33%] justify-center">
+            <div className="flex flex-col gap-5 justify-center">
                 <h2 className="text-5xl font-bold overflow-hidden">Follow Us
                 </h2>
                 <div className="flex gap-5">

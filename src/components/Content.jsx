@@ -42,7 +42,10 @@ const Content = () => {
                 </div>
             </div>
 
-            <div className="flex justify-between items-center m-auto gap-10 p-10 w-[100%]">
+
+{/*             contact content here */}
+
+            <div className="contact-container flex justify-between items-center m-auto gap-10 p-10 w-[100%]">
                 <div className="connect flex flex-col w-[50%] gap-10 ">
                     <h2 className="text-4xl overflow-hidden font-semibold w-[80%]">
                         Buy our products from anywhere
